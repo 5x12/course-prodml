@@ -1,1 +1,1 @@
-# course-prodml
+This is ML in Production course. It specifically focuses on deploying machine learning models in a production environment. Throughout the course, we will delve into the intricacies of transforming ML models into operational microservices, ensuring their successful integration and implementation within a production setting.
