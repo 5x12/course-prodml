@@ -1,0 +1,37 @@
+2023-10-29 14:37:15.202 | ERROR    | __main__:<module>:20 - wow
+Traceback (most recent call last):
+
+> File "/Users/andrewwolf/Desktop/module2/logging_test.py", line 16, in <module>
+    res = divide_by(2,0)
+          └ <function divide_by at 0x1017036d0>
+
+  File "/Users/andrewwolf/Desktop/module2/logging_test.py", line 13, in divide_by
+    return a/b
+           │ └ 0
+           └ 2
+
+ZeroDivisionError: division by zero
+2023-10-29 14:53:22.040 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:53:35.133 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:53:42.150 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:53:43.737 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:53:45.721 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:53:47.378 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:53:49.125 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:53:51.437 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:53:53.580 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:53:55.268 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:53:59.037 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:00.772 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:02.595 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:04.063 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:05.569 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:06.865 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:08.131 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:09.315 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:10.453 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:11.418 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:12.300 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:13.319 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 14:54:14.077 | CRITICAL | __main__:<module>:20 - wow
+2023-10-29 15:48:39.910 | CRITICAL | __main__:<module>:20 - division by 0!!
