@@ -1,10 +1,12 @@
 import pandas as pd
 import re
-from loguru import logger
-
 from collection import load_data
 
+from loguru import logger 
+
 def prepare_data():
+    
+    logger.info("starting up preprocessing pipeline")
     # to prepare dataset we need: 
     #1. load the dataset
     data = load_data()
@@ -16,17 +18,16 @@ def prepare_data():
     return df
 
 def encode_cat_cols(data):
-    logger.info("encoding categorical columns")
+    
+    cols = ['balcony','parking', 'furnished', 'garage', 'storage']
+    logger.info(f"encoding categorical columns: {cols}")
     return pd.get_dummies(data, 
-                          columns = ['balcony',
-                                    'parking', 
-                                    'furnished', 
-                                    'garage', 
-                                    'storage'], 
+                          columns = cols, 
                           drop_first=True)
 
 def parse_garden_col(data):
-    logger.info("parsing garden column")
+    
+    logger.info("pasring garden column")
     for i in range(len(data)):
         if data.garden[i]=='Not present':
             data.garden[i]=0

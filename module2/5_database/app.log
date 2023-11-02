@@ -1,0 +1,19 @@
+2023-10-31 15:25:14.429 | INFO     | __main__:main:6 - running the application...
+2023-10-31 15:25:14.430 | INFO     | model_service:load_model:13 - checking the existance of model config file at models/rf_db_v1
+2023-10-31 15:25:14.430 | WARNING  | model_service:load_model:17 - model at models/rf_db_v1 was not found -> building rf_db_v1
+2023-10-31 15:25:14.430 | INFO     | model:build_model:12 - starting up model building pipeline
+2023-10-31 15:25:14.430 | INFO     | preparation:prepare_data:9 - starting up preprocessing pipeline
+2023-10-31 15:25:14.430 | INFO     | collection:load_data_from_db:15 - extracting the table from the database
+2023-10-31 15:25:14.441 | INFO     | preparation:encode_cat_cols:23 - encoding categorical columns: ['balcony', 'parking', 'furnished', 'garage', 'storage']
+2023-10-31 15:25:14.445 | INFO     | preparation:parse_garden_col:30 - pasring garden column
+2023-10-31 15:25:14.616 | INFO     | model:get_X_y:40 - defining X and Y variables. 
+X vars: ['area', 'constraction_year', 'bedrooms', 'garden', 'balcony_yes', 'parking_yes', 'furnished_yes', 'garage_yes', 'storage_yes']
+y var: rent
+2023-10-31 15:25:14.617 | INFO     | model:split_train_test:46 - splitting data into train and test sets
+2023-10-31 15:25:14.618 | INFO     | model:train_model:55 - training a model with hyperparameters
+2023-10-31 15:25:14.618 | DEBUG    | model:train_model:60 - grid_space = {'n_estimators': [100, 200, 300], 'max_depth': [3, 6, 9, 12]}
+2023-10-31 15:25:28.459 | INFO     | model:evaluate_model:73 - evaluating model performance. SCORE=0.7651857168243572
+2023-10-31 15:25:28.468 | INFO     | model:save_model:78 - saving a model to a directory: models/rf_db_v1
+2023-10-31 15:25:28.473 | INFO     | model_service:load_model:20 - model rf_db_v1 exists! -> loading model configuration file
+2023-10-31 15:25:28.478 | INFO     | model_service:predict:24 - making prediction!
+2023-10-31 15:25:28.481 | INFO     | __main__:main:10 - prediction = [2356.33125664]

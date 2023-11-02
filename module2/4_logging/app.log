@@ -1,37 +1,47 @@
-2023-10-29 14:37:15.202 | ERROR    | __main__:<module>:20 - wow
-Traceback (most recent call last):
-
-> File "/Users/andrewwolf/Desktop/module2/logging_test.py", line 16, in <module>
-    res = divide_by(2,0)
-          └ <function divide_by at 0x1017036d0>
-
-  File "/Users/andrewwolf/Desktop/module2/logging_test.py", line 13, in divide_by
-    return a/b
-           │ └ 0
-           └ 2
-
-ZeroDivisionError: division by zero
-2023-10-29 14:53:22.040 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:53:35.133 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:53:42.150 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:53:43.737 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:53:45.721 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:53:47.378 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:53:49.125 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:53:51.437 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:53:53.580 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:53:55.268 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:53:59.037 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:00.772 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:02.595 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:04.063 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:05.569 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:06.865 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:08.131 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:09.315 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:10.453 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:11.418 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:12.300 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:13.319 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 14:54:14.077 | CRITICAL | __main__:<module>:20 - wow
-2023-10-29 15:48:39.910 | CRITICAL | __main__:<module>:20 - division by 0!!
+2023-10-30 18:15:23.454 | INFO     | __main__:main:6 - running the application...
+2023-10-30 18:15:23.454 | INFO     | model_service:load_model:13 - checking the existance of model config file at models/rf_v1
+2023-10-30 18:15:23.454 | INFO     | model_service:load_model:20 - model rf_v1 exists! -> loading model configuration file
+2023-10-30 18:15:23.464 | INFO     | model_service:predict:24 - making prediction!
+2023-10-30 18:15:23.468 | INFO     | __main__:main:10 - prediction = [2055.94577694]
+2023-10-30 18:15:33.264 | INFO     | __main__:main:6 - running the application...
+2023-10-30 18:15:33.264 | INFO     | model_service:load_model:13 - checking the existance of model config file at models/rf_v1
+2023-10-30 18:15:33.264 | WARNING  | model_service:load_model:17 - model at models/rf_v1 was not found -> building rf_v1
+2023-10-30 18:15:33.264 | INFO     | model:build_model:12 - starting up model building pipeline
+2023-10-30 18:15:33.265 | INFO     | preparation:prepare_data:9 - starting up preprocessing pipeline
+2023-10-30 18:15:33.265 | INFO     | collection:load_data:8 - loading csv file at path rent_apartments.csv
+2023-10-30 18:15:33.273 | INFO     | preparation:encode_cat_cols:23 - encoding categorical columns: ['balcony', 'parking', 'furnished', 'garage', 'storage']
+2023-10-30 18:15:33.286 | INFO     | preparation:parse_garden_col:30 - pasring garden column
+2023-10-30 18:15:33.459 | INFO     | model:get_X_y:40 - defining X and Y variables. 
+X vars: ['area', 'constraction_year', 'bedrooms', 'garden', 'balcony_yes', 'parking_yes', 'furnished_yes', 'garage_yes', 'storage_yes']
+y var: rent
+2023-10-30 18:15:33.461 | INFO     | model:split_train_test:46 - splitting data into train and test sets
+2023-10-30 18:15:33.463 | INFO     | model:train_model:55 - training a model with hyperparameters
+2023-10-30 18:16:33.662 | INFO     | __main__:main:6 - running the application...
+2023-10-30 18:16:33.662 | INFO     | model_service:load_model:13 - checking the existance of model config file at models/rf_v1
+2023-10-30 18:16:33.662 | WARNING  | model_service:load_model:17 - model at models/rf_v1 was not found -> building rf_v1
+2023-10-30 18:16:33.662 | INFO     | model:build_model:12 - starting up model building pipeline
+2023-10-30 18:16:33.662 | INFO     | preparation:prepare_data:9 - starting up preprocessing pipeline
+2023-10-30 18:16:33.662 | INFO     | collection:load_data:8 - loading csv file at path rent_apartments.csv
+2023-10-30 18:16:33.668 | INFO     | preparation:encode_cat_cols:23 - encoding categorical columns: ['balcony', 'parking', 'furnished', 'garage', 'storage']
+2023-10-30 18:16:33.673 | INFO     | preparation:parse_garden_col:30 - pasring garden column
+2023-10-30 18:16:33.854 | INFO     | model:get_X_y:40 - defining X and Y variables. 
+X vars: ['area', 'constraction_year', 'bedrooms', 'garden', 'balcony_yes', 'parking_yes', 'furnished_yes', 'garage_yes', 'storage_yes']
+y var: rent
+2023-10-30 18:16:33.855 | INFO     | model:split_train_test:46 - splitting data into train and test sets
+2023-10-30 18:16:33.856 | INFO     | model:train_model:55 - training a model with hyperparameters
+2023-10-30 18:16:33.856 | DEBUG    | model:train_model:60 - grid_space = {'n_estimators': [100, 200, 300], 'max_depth': [3, 6, 9, 12]}
+2023-10-30 18:16:47.496 | INFO     | model:evaluate_model:73 - evaluating model performance. SCORE=0.7661652604616583
+2023-10-30 18:16:47.508 | INFO     | model:save_model:78 - saving a model to a directory: models/rf_v1
+2023-10-30 18:16:47.525 | INFO     | model_service:load_model:20 - model rf_v1 exists! -> loading model configuration file
+2023-10-30 18:16:47.536 | INFO     | model_service:predict:24 - making prediction!
+2023-10-30 18:16:47.541 | INFO     | __main__:main:10 - prediction = [1905.11675893]
+2023-10-30 18:17:21.585 | INFO     | __main__:main:6 - running the application...
+2023-10-30 18:17:21.586 | INFO     | model_service:load_model:13 - checking the existance of model config file at models/rf_v1
+2023-10-30 18:17:21.586 | INFO     | model_service:load_model:20 - model rf_v1 exists! -> loading model configuration file
+2023-10-30 18:17:21.603 | INFO     | model_service:predict:24 - making prediction!
+2023-10-30 18:17:21.609 | INFO     | __main__:main:10 - prediction = [1905.11675893]
+2023-10-30 18:17:39.517 | INFO     | __main__:main:6 - running the application...
+2023-10-30 18:17:39.518 | INFO     | model_service:load_model:13 - checking the existance of model config file at models/rf_v1
+2023-10-30 18:17:39.518 | INFO     | model_service:load_model:20 - model rf_v1 exists! -> loading model configuration file
+2023-10-30 18:17:39.530 | INFO     | model_service:predict:24 - making prediction!
+2023-10-30 18:17:39.536 | INFO     | __main__:main:10 - prediction = [1905.11675893]
