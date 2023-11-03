@@ -17,3 +17,8 @@ y var: rent
 2023-10-31 15:25:28.473 | INFO     | model_service:load_model:20 - model rf_db_v1 exists! -> loading model configuration file
 2023-10-31 15:25:28.478 | INFO     | model_service:predict:24 - making prediction!
 2023-10-31 15:25:28.481 | INFO     | __main__:main:10 - prediction = [2356.33125664]
+2023-11-03 12:40:51.274 | INFO     | __main__:main:6 - running the application...
+2023-11-03 12:40:51.274 | INFO     | model_service:load_model:13 - checking the existance of model config file at models/rf_db_v1
+2023-11-03 12:40:51.274 | INFO     | model_service:load_model:20 - model rf_db_v1 exists! -> loading model configuration file
+2023-11-03 12:40:51.282 | INFO     | model_service:predict:24 - making prediction!
+2023-11-03 12:40:51.286 | INFO     | __main__:main:10 - prediction = [2356.33125664]

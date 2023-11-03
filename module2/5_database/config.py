@@ -3,14 +3,13 @@
 # model_name - the name of the model we should use
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from pydantic import DirectoryPath, FilePath
+from pydantic import DirectoryPath
 from sqlalchemy import create_engine
 from loguru import logger 
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file='.env', env_file_encoding='utf-8')
 
-    data_file_name: FilePath
     model_path: DirectoryPath
     model_name: str
     log_level: str
