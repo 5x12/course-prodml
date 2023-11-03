@@ -1,0 +1,19 @@
+2023-11-03 19:06:35.126 | INFO     | __main__:main:6 - running the application...
+2023-11-03 19:06:35.126 | INFO     | model.model_service:load_model:13 - checking the existance of model config file at model/models/rf_db_v2
+2023-11-03 19:06:35.126 | WARNING  | model.model_service:load_model:17 - model at model/models/rf_db_v2 was not found -> building rf_db_v2
+2023-11-03 19:06:35.126 | INFO     | model.pipeline.model:build_model:12 - starting up model building pipeline
+2023-11-03 19:06:35.126 | INFO     | model.pipeline.preparation:prepare_data:9 - starting up preprocessing pipeline
+2023-11-03 19:06:35.126 | INFO     | model.pipeline.collection:load_data_from_db:14 - extracting the table from the database
+2023-11-03 19:06:35.136 | INFO     | model.pipeline.preparation:encode_cat_cols:23 - encoding categorical columns: ['balcony', 'parking', 'furnished', 'garage', 'storage']
+2023-11-03 19:06:35.140 | INFO     | model.pipeline.preparation:parse_garden_col:30 - pasring garden column
+2023-11-03 19:06:35.299 | INFO     | model.pipeline.model:get_X_y:40 - defining X and Y variables. 
+X vars: ['area', 'constraction_year', 'bedrooms', 'garden', 'balcony_yes', 'parking_yes', 'furnished_yes', 'garage_yes', 'storage_yes']
+y var: rent
+2023-11-03 19:06:35.300 | INFO     | model.pipeline.model:split_train_test:46 - splitting data into train and test sets
+2023-11-03 19:06:35.301 | INFO     | model.pipeline.model:train_model:55 - training a model with hyperparameters
+2023-11-03 19:06:35.301 | DEBUG    | model.pipeline.model:train_model:60 - grid_space = {'n_estimators': [100, 200, 300], 'max_depth': [3, 6, 9, 12]}
+2023-11-03 19:06:48.208 | INFO     | model.pipeline.model:evaluate_model:73 - evaluating model performance. SCORE=0.7147358725017028
+2023-11-03 19:06:48.213 | INFO     | model.pipeline.model:save_model:78 - saving a model to a directory: model/models/rf_db_v2
+2023-11-03 19:06:48.216 | INFO     | model.model_service:load_model:20 - model rf_db_v2 exists! -> loading model configuration file
+2023-11-03 19:06:48.219 | INFO     | model.model_service:predict:24 - making prediction!
+2023-11-03 19:06:48.221 | INFO     | __main__:main:10 - prediction = [1953.47673595]
