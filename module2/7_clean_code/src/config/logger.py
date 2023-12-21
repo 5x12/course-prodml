@@ -30,10 +30,10 @@ def configure_logging(log_level: str) -> None:
     """
     Configure the logging for the application.
 
-    Args:
+    Arg:
         log_level (str): The log level to be set for the logger.
 
-    Returns:
+    Return:
         None
     """
     logger.remove()
