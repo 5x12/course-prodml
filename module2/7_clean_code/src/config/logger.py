@@ -32,6 +32,9 @@ def configure_logging(log_level: str) -> None:
 
     Args:
         log_level (str): The log level to be set for the logger.
+
+    Returns:
+        None
     """
     logger.remove()
     logger.add(
