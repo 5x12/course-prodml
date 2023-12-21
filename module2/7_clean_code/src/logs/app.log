@@ -1,0 +1,21 @@
+2023-12-14 16:42:06.114 | INFO     | __main__:main:23 - running the application...
+2023-12-14 16:42:06.115 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2023-12-14 16:42:06.115 | INFO     | model.model_service:load_model:56 - model rf_db_v2 exists! -> loading model configuration file
+2023-12-14 16:42:06.126 | INFO     | model.model_service:predict:77 - making prediction!
+2023-12-14 16:42:06.130 | INFO     | __main__:main:39 - prediction = [1929.67171716]
+2023-12-14 16:42:27.335 | INFO     | __main__:main:23 - running the application...
+2023-12-14 16:42:27.336 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2023-12-14 16:42:27.336 | WARNING  | model.model_service:load_model:52 - model at model/models/rf_db_v2 was not found -> building rf_db_v2
+2023-12-14 16:42:27.336 | INFO     | model.pipeline.model:build_model:34 - starting up model building pipeline
+2023-12-14 16:42:27.336 | INFO     | model.pipeline.preparation:prepare_data:26 - starting up preprocessing pipeline
+2023-12-14 16:42:27.336 | INFO     | model.pipeline.collection:load_data_from_db:26 - extracting the table from the database
+2023-12-14 16:42:27.347 | INFO     | model.pipeline.preparation:_encode_cat_cols:43 - encoding categorical columns: ['balcony', 'parking', 'furnished', 'garage', 'storage']
+2023-12-14 16:42:27.351 | INFO     | model.pipeline.preparation:_parse_garden_col:61 - pasring garden column
+2023-12-14 16:42:27.352 | INFO     | model.pipeline.model:_get_x_y:83 - defining X and Y variables. X vars: ['area', 'constraction_year', 'bedrooms', 'garden', 'balcony_yes', 'parking_yes', 'furnished_yes', 'garage_yes', 'storage_yes']; y var: rent
+2023-12-14 16:42:27.352 | INFO     | model.pipeline.model:_split_train_test:101 - splitting data into train and test sets
+2023-12-14 16:42:27.354 | INFO     | model.pipeline.model:_train_model:123 - training a model with hyperparameters
+2023-12-14 16:42:40.143 | INFO     | model.pipeline.model:_evaluate_model:163 - evaluating model performance. SCORE=0.6946209035314518
+2023-12-14 16:42:40.143 | INFO     | model.pipeline.model:_save_model:178 - saving a model to a directory: model/models/rf_db_v2
+2023-12-14 16:42:40.147 | INFO     | model.model_service:load_model:56 - model rf_db_v2 exists! -> loading model configuration file
+2023-12-14 16:42:40.149 | INFO     | model.model_service:predict:77 - making prediction!
+2023-12-14 16:42:40.151 | INFO     | __main__:main:39 - prediction = [2127.62470573]
