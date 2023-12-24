@@ -126,7 +126,7 @@ def _train_model(
         'max_depth': [3, 6, 9, 12],
     }
 
-    logger.debug(f"grid_space = {grid_space}")
+    logger.debug(f'grid_space = {grid_space}')
     grid = GridSearchCV(
         RandomForestRegressor(),
         param_grid=grid_space,
