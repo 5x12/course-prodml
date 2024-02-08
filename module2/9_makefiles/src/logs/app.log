@@ -1,0 +1,76 @@
+
+2024-02-08 19:27:35.483 | INFO     | __main__:main:23 - running the application...
+2024-02-08 19:27:35.483 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 19:27:35.483 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 19:27:35.492 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 19:27:35.495 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 19:30:51.823 | INFO     | __main__:main:23 - running the application...
+2024-02-08 19:30:51.824 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 19:30:51.824 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 19:30:51.831 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 19:30:51.834 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 19:33:21.489 | INFO     | __main__:main:23 - running the application...
+2024-02-08 19:33:21.490 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 19:33:21.490 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 19:33:21.499 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 19:33:21.502 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 19:34:36.492 | INFO     | __main__:main:23 - running the application...
+2024-02-08 19:34:36.492 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 19:34:36.492 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 19:34:36.498 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 19:34:36.501 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 19:44:02.432 | INFO     | __main__:main:23 - running the application...
+2024-02-08 19:44:02.433 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 19:44:02.433 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 19:44:02.439 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 19:44:02.442 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 19:54:23.644 | INFO     | __main__:main:23 - running the application...
+2024-02-08 19:54:23.644 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 19:54:23.644 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 19:54:23.649 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 19:54:23.652 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 19:57:01.418 | INFO     | __main__:main:23 - running the application...
+2024-02-08 19:57:01.419 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 19:57:01.419 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 19:57:01.425 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 19:57:01.429 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 20:01:47.297 | INFO     | __main__:main:23 - running the application...
+2024-02-08 20:01:47.298 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 20:01:47.298 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 20:01:47.305 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 20:01:47.310 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 20:03:55.326 | INFO     | __main__:main:23 - running the application...
+2024-02-08 20:03:55.326 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 20:03:55.326 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 20:03:55.333 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 20:03:55.337 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 20:05:34.267 | INFO     | __main__:main:23 - running the application...
+2024-02-08 20:05:34.267 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 20:05:34.267 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 20:05:34.272 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 20:05:34.274 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 20:07:35.792 | INFO     | __main__:main:23 - running the application...
+2024-02-08 20:07:35.793 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 20:07:35.793 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 20:07:35.797 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 20:07:35.802 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 20:08:32.870 | INFO     | __main__:main:23 - running the application...
+2024-02-08 20:08:32.871 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 20:08:32.871 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 20:08:32.876 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 20:08:32.879 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 20:11:05.741 | INFO     | __main__:main:23 - running the application...
+2024-02-08 20:11:05.742 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 20:11:05.742 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 20:11:05.751 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 20:11:05.754 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 20:14:43.121 | INFO     | __main__:main:23 - running the application...
+2024-02-08 20:14:43.122 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 20:14:43.122 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 20:14:43.126 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 20:14:43.128 | INFO     | __main__:main:39 - prediction = [2127.62470573]
+2024-02-08 20:15:26.690 | INFO     | __main__:main:23 - running the application...
+2024-02-08 20:15:26.690 | INFO     | model.model_service:load_model:42 - checking the existance of model config file at model/models/rf_db_v2
+2024-02-08 20:15:26.691 | INFO     | model.model_service:load_model:58 - model rf_db_v2 exists! -> loading model configuration file
+2024-02-08 20:15:26.695 | INFO     | model.model_service:predict:79 - making prediction!
+2024-02-08 20:15:26.698 | INFO     | __main__:main:39 - prediction = [2127.62470573]
