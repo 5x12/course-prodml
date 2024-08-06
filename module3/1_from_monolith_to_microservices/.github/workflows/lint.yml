@@ -1,0 +1,27 @@
+# This is our first Github Actions workflow!
+
+name: Lint Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Build application
+      uses: ./.github/actions/build-application
+
+    - name: Lint with flake8
+      run: poetry run make check

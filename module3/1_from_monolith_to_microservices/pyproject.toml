@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "module2"
+version = "0.1.0"
+description = ""
+authors = ["5x12 <contact@awolf.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.7"
+scikit-learn = "^1.3.1"
+pandas = "^2.1.1"
+pydantic-settings = "^2.0.3"
+loguru = "^0.7.2"
+sqlalchemy = "^2.0.22"
+wemake-python-styleguide = "^0.18.0"
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
