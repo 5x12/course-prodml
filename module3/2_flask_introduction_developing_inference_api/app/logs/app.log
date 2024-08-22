@@ -1,0 +1,9 @@
+2024-08-21 19:21:52.382 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2024-08-21 19:21:52.384 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2024-08-21 19:21:55.886 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2024-08-21 19:21:55.886 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2024-08-21 21:47:24.056 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2024-08-21 21:47:24.057 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2024-08-21 21:47:25.023 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2024-08-21 21:47:25.024 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2024-08-21 21:47:30.591 | INFO     | services.model_inference:predict:80 - making prediction!
